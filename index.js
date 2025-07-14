@@ -21,7 +21,8 @@ add.addEventListener("click",()=>{
         total.innerText=sum
         document.body.removeChild(para)
         update()
-    })
+    } 
+     )                    
 
     sum+=Number(amount)
     var para=document.createElement("p")
